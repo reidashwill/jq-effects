@@ -7,7 +7,9 @@ $(document).ready(function() {
   $("#clickhere").click(function(){
     $("#walrus2").fadeToggle("slow");
     $(this).val($(this).val() == "Click Here!" ? "Click Here Again!": "Click Here!");
-  })
+  });
 
-  $()
+  $(".clickable2").click(function() {
+    $("#text1").fadeIn();
+    });
 });

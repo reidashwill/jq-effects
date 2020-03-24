@@ -11,8 +11,17 @@
   text-decoration: underline;
 }
 
+.clickable2 {
+  cursor: pointer;
+  color: #054ABC;
+}
+
 #walrus2 {
   width: 300px;
   height: auto;
+  display:none;
+}
+
+#text1 {
   display:none;
 }
