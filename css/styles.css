@@ -10,3 +10,9 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+#walrus2 {
+  width: 300px;
+  height: auto;
+  display:none;
+}

@@ -4,5 +4,10 @@ $(document).ready(function() {
     $("#walrus-hidden").toggle();
   });
 
-});
+  $("#clickhere").click(function(){
+    $("#walrus2").fadeToggle("slow");
+    $(this).val($(this).val() == "Click Here!" ? "Click Here Again!": "Click Here!");
+  })
 
+  $()
+});
